@@ -40,4 +40,10 @@ allprojects {
         jcenter()
         maven { url "https://maven.google.com" }
     }
+    tasks.withType(Javadoc).all {
+        enabled = false
+    }
+}
+tasks.withType(Javadoc).all {
+    enabled = false
 }
