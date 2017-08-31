@@ -1,7 +1,3 @@
 include ':fuel',
         ':fuel-gson',
-        ':fuel-livedata',
-        ':fuel-rxjava',
-        ':fuel-android',
-        ':sample',
-        ':sample-java'
+        ':fuel-android'
