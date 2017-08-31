@@ -40,7 +40,7 @@ publish {
     artifactId = 'fuel-gson'
     autoPublish = true
     desc = 'The easiest HTTP networking library in Kotlin/Android'
-    groupId = 'com.github.feelfreelinux:fuel'
+    groupId = 'com.github.feelfreelinux'
     licences = ['MIT']
     publishVersion = parent.ext.publish_version
     uploadName = 'Fuel-Android'
